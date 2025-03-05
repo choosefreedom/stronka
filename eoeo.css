@@ -1,0 +1,25 @@
+.eo {
+    top: 10rem;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+
+.mapamala {
+    height: 400px;
+    width: 600px;
+    background-color: red;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
