@@ -20,3 +20,4 @@ showMenu('menuicon', 'nav-menu');
 if (window.location.pathname.endsWith("index.html")) {
     window.history.replaceState(null, "", window.location.pathname.replace("index.html", ""));
 }
+
