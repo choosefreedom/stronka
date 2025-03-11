@@ -9,12 +9,17 @@ document.querySelectorAll('.item').forEach(item => {
         // Toggle klasy open na całym elemencie
         this.classList.toggle('open');
 
-        // Zmieniamy kolor dekoratora na podstawie stanu
-        if (this.classList.contains('open')) {
-            decorator.style.backgroundColor = '#007bff'; //
-        } else {
-            decorator.style.backgroundColor = 'red'; //
-        }
     });
 });
 
+// document.querySelectorAll(".item").forEach(item => {
+//     item.addEventListener("click", function () {
+//         let decorator = this.querySelector(".decorator");
+//
+//         if (this.classList.toggle("open")) {
+//             decorator.style.backgroundImage = "url('wave_thin_show.png')"; // Ustaw minus po otwarciu
+//         } else {
+//             decorator.style.backgroundImage = "url('wave_br_hide.png')"; // Ustaw plus po zamknięciu
+//         }
+//     });
+// });

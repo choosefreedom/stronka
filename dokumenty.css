@@ -33,14 +33,15 @@
 .proba {
     margin-top: 10rem;
     margin-left: 10rem;
+    margin-bottom: 10rem;
     top: 20rem;
 }
 
 .container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
-    max-width: 800px;
+    max-width: 1500px;
     width: 100%;
     align-items: start;
 }
@@ -56,6 +57,7 @@
     display: grid;
     gap: 20px;
     place-items: center;
+    min-height: 300px;
 
 }
 
@@ -65,9 +67,9 @@
 
 .title {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
     padding: 10px;
-    color: #007bff;
+    color: #582C12;
     text-align: center;
 }
 
@@ -79,18 +81,18 @@
 }
 
 .content.open {
-    max-height: 500px; /* Możesz dostosować */
+    max-height: none;
     padding: 10px 15px;
 }
 
 .decorator {
-    width: 15px;
-    height: 15px;
-    background: red;
-    margin-top: 10px;
-    border-radius: 50%; /* Okrągły dekorator */
-    transition: background 0.3s ease-in-out;
-    display: flex;
-    justify-content: center;
+    bottom: 20px;
+    left: 50%;
+    text-align: center;
+
+}
+.decor_img {
+    width: 100%;
+    height: 70px;
 }
 
