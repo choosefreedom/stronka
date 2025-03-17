@@ -2,24 +2,23 @@
 document.querySelectorAll('.item').forEach(item => {
     item.addEventListener('click', function () {
         const content = this.querySelector('.content');
-        const decorator = this.querySelector('.decorator');
+        const decorImg = this.querySelector('.decorator_img');
+        const decorHide = this.querySelector('.decor_hide');
 
-        // Toggle klasy open na kontencie
+
         content.classList.toggle('open');
-        // Toggle klasy open na całym elemencie
+
+
         this.classList.toggle('open');
 
+
+        if  (decorImg.style.display === 'none') {
+            console.log("dupa")
+            decorImg.style.display = 'block';
+            decorHide.style.display = 'none';
+        } else {
+            decorImg.style.display = 'none';
+            decorHide.style.display = 'block';
+        }
     });
 });
-
-// document.querySelectorAll(".item").forEach(item => {
-//     item.addEventListener("click", function () {
-//         let decorator = this.querySelector(".decorator");
-//
-//         if (this.classList.toggle("open")) {
-//             decorator.style.backgroundImage = "url('wave_thin_show.png')"; // Ustaw minus po otwarciu
-//         } else {
-//             decorator.style.backgroundImage = "url('wave_br_hide.png')"; // Ustaw plus po zamknięciu
-//         }
-//     });
-// });
