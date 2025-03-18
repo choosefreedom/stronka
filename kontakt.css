@@ -51,7 +51,7 @@
         overflow: hidden;
     }
 
-    .dupa
+    .mapagoogle
     {
         width: 500px;
         height: 500px;
@@ -74,31 +74,35 @@
 
     }
 
+    .dane {
+        margin-bottom: 100px;
 
+
+    }
 
 }
+/*MEDIUM MAP*/
 
 @media screen and (max-width: 1525px) {
     .box {
-        margin-left: 20%;
-        margin-right: 20%;
+        margin: 5rem 0 0 15%;
         top: -2rem;
-        display: grid;
+        display:flex;
         justify-content: center;
         column-gap: 10px;
     }
 
 
-    .dupa
+    .mapagoogle
     {
         width: 500px;
         height: 500px;
     }
 
     .intorduce {
-        margin: 8rem 30% -20px;
+        margin: 8rem 0 0 -20px;
         display: grid;
-        justify-content: left;
+        justify-content: center;
     }
 
     .contact {
@@ -109,9 +113,10 @@
 
     .dane {
         margin-top: 2rem;
+        margin-bottom: 100px;
     }
     .line {
-        width: 70%;
+        width: 100%;
         height: 1px;
     }
 }
@@ -119,7 +124,7 @@
 /*MOBILE*/
 @media screen and (max-width: 1120px) {
 
-    .dupa
+    .mapagoogle
     {
         width: 95%;
         height: 95%;
@@ -145,13 +150,12 @@
     .box {
         margin-left: 2.5rem;
         margin-right: 2.5rem;
-        display: grid;
-        justify-content: center;
+        display: contents;
 
     }
 
     .contact {
-        margin-top: 20px;
+        margin: 20px 1rem 0 2.5rem;
         justify-content: center;
         display: grid;
     }
@@ -166,6 +170,7 @@
 
     .dane {
         margin-top: 2rem;
+        margin-bottom: 3.5rem;
     }
     .inside {
         margin: 3rem 10%;
@@ -184,13 +189,10 @@
     display: inline-flex;
     width: 100%;
     margin-top: -40px;
+    height: 1px;
 }
 
-.dane {
-    margin-bottom: 100px;
 
-
-}
 
 .danekontaktowe {
     padding-left: 0;
@@ -285,7 +287,6 @@
 .brown {
     height: 24px;
     width: 24px;
-    margin-right: 10px;
     vertical-align: middle
 }
 
