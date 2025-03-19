@@ -4,8 +4,9 @@
     <link rel="stylesheet" href="css.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="kontakt.css">
+    <link rel="stylesheet" href="dokumenty.css">
+    <link rel="stylesheet" href="oplaty.css">
     <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="home.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -17,6 +18,11 @@
     <title>Notariusz Bydgoszcz - Oliwia Ślęzak</title>
 </head>
 <body>
+<div id="cookies_popup" class="hidden">
+    <p>Korzystając ze strony akceptują Państwo warunki <a target="_blank" href="privacy.html"> Polityki prywatności</a>.
+        Zachęcamy do zapoznania się ze wszystkimi informacjami. <a id="accept" href="#"> Akceptuj i zamknij.</a>.</p>
+
+</div>
 <header class="header">
     <div class="info">
         <ul class="banner">
@@ -74,19 +80,14 @@
         notariuszu spoczywa obowiązek udzielenia stronom niezbędnych wyjaśnień dotyczących dokonywanej czynności
         notarialnej. Zobowiązany jest on także do zachowania w tajemnicy okoliczności sprawy, o których powziął
         wiadomość ze względu na wykonywane czynności notarialne. - to jest wklejone ze strony
-        https://korobowicz.pl/czynnosci-notarialne/,
-        zmieniłam to trochę, żeby nie było takie samo, przeczytaj
-        oni też mają fajnie napisane RODO i politykę prywatności
-        https://korobowicz.pl/polityka-prywatnosci/
-        https://korobowicz.pl/rodo/
-        https://www.notariuszwroclaw.pro/rodo - podoba mi się RODO u niej, ale polityka prywatności faktycznie fajna u
-        korobowicz
-        ogólnie dużo mają na tej stronie treści, ale to też wpływa na pozycjonowanie się strony w wyszukiwarce, więc
-        myślę, że dlatego mają tak dużo opisane
-        Niniejsza strona internetowa ma jedynie funkcję informacyjną i nie stanowi reklamy ani też nie stanowi oferty, w
-        rozumieniu obowiązujących przepisów, w szczególności kodeksu cywilnego. Strona ta nie jest także wyjaśnieniem
-        dotyczącym dokonywanych czynności notarialnych w rozumieniu art. 80 § 3 ustawy z dnia 14 lutego 1991 r. – Prawo
-        o notariacie.
+        Stosownie do art. 79 ustawy z dnia 14 lutego 1991 roku Prawo o notariacie, do dokonywanych przez notariusza
+        czynności należą:
+        sporządzanie aktów notarialnych (w tym np. umowy sprzedaży, umowy darowizny, umowy zamiany, umowy dożywocia,
+        umowy o podział majątku wspólnego, umowy o dział spadku, umowy o zniesienie współwłasności, umowy ustanowienia
+        służebności osobistych, gruntowych i przesyłu, umowy deweloperskiej, umowy ustanowienia odrębnej własności
+        lokali, umowy spółek, umowy majątkowej małżeńskiej, umowy przedwstępnej, aktu założycielskiego fundacji,
+        stowarzyszeń, spółdzielni i innych osób prawnych, pełnomocnictwa, testamentu, oświadczenia o poddaniu się
+        rygorowi egzekucji);
 
 
         CZYNNOŚCI NOTARIALNE
@@ -112,6 +113,7 @@
         sporządzanie protestów weksli i czeków;
     </p>
 </div>
+<div id="footer-container"></div>
 <footer class="footer">
     <div class="footer_inside1">
         <div class="footer_info">
@@ -119,7 +121,7 @@
                 <p class="footer_naglowek">KANCELARIA NOTARIALNA </p>
                 <img src="linialight.png" alt="" class="linialight">
             </div>
-            <p><img src="map.png" alt="ikona mapy" class="footerimg"> ul. Jagiellońska 107 lok. 1, Bydgoszcz</p>
+            <p><img src="map.png" alt="ikona mapy" class="footerimg"><a class="bold" href="https://maps.app.goo.gl/N8YfzY7t3EfZ9TkF7"> ul. Jagiellońska 107 lok. 1, Bydgoszcz</a></p>
             <p><img src="clock.png" alt="ikona zegara" class="footerimg">9:00 - 17:00 / środa 11:00 - 18:00</p>
             <p><img src="note.png" alt="ikona dokumentu" class="footerimg">NIP 000000000000000</p>
         </div>
@@ -128,9 +130,9 @@
                 <p class="footer_naglowek">KONTAKT </p>
                 <img src="linialight.png" alt="" class="linialight">
             </div>
-            <p><img src="phone.png" alt="ikona telefonu" class="footerimg"><a href="tel.+48721594315">+48 721 594 315</a></p>
-            <p><img src="phone2.png" alt="ikona telefonu" class="footerimg"><a href="tel.+48523211276">52 321 12 76</a></p>
-            <p><img src="mail.png" alt="ikona maila" class="footerimg"><a href="mailto:os@notariuszbyd.pl">os@notariuszbyd.pl</a></p>
+            <p><img src="phone.png" alt="ikona telefonu" class="footerimg"><a  class="bold" href="tel:+48721594315">+48 721 594 315</a></p>
+            <p><img src="phone2.png" alt="ikona telefonu" class="footerimg"><a class="bold" href="tel:+48523211276">52 321 12 76</a></p>
+            <p><img src="mail.png" alt="ikona maila" class="footerimg"><a class="bold" href="mailto:os@notariuszbyd.pl">os@notariuszbyd.pl</a></p>
         </div>
         <div class="footer_else">
             <div class="footer_naglowek_container">
@@ -143,9 +145,12 @@
 
         </div>
     </div>
-    </div>
     <div class="footer_inside2">
         <div class="copyright">
+            <div class="pp">
+            <a target="_blank" href="privacy.html" class="pp_copyright">Polityka prywatności</a>
+            <a target="_blank" href="RODO.html" class="pp_copyright">RODO</a>
+            </div>
             <p>&copy; 2025 Oliwia Ślęzak Notariusz Bydgoszcz</p>
         </div>
     </div>

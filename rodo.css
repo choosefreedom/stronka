@@ -1,0 +1,43 @@
+
+.rodo {
+    margin: 0 10%;
+
+}
+
+.rodo_container {
+    margin: 10rem 15% 0 15%;
+}
+
+
+.kanca_naglowek {
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nazwisko {
+
+    justify-content: center;
+    align-content: center;
+}
+@media screen and (min-width: 1120px) {
+
+
+    .rodo_page {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        gap: 10rem;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .rodo_page {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        gap: 3rem;
+    }
+}

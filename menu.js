@@ -1,23 +1,56 @@
+// cookies
+const cookies = {
+    getItem: (key) => {
+        const cookies = document.cookie
+            .split(';')
+            .map(cookie => cookie.split('='))
+            .reduce((acc, [key, value]) => ({ ...acc, [key.trim()]: value }), {});
+        return cookies[key];
+    },
+    setItem: (key, value) => {
+        document.cookie = `${key}=${value}; path=/`;
+    },
+};
+
+const storageType = cookies;
+const agreementProperty = 'cookies_agreement';
+
+const showPopup = () => !storageType.getItem(agreementProperty);
+const saveToStorage = () => storageType.setItem(agreementProperty, true);
+
+window.onload = () => {
+    const consentPopup = document.getElementById('cookies_popup');
+    const acceptBtn = document.getElementById('accept');
+
+    const acceptFn = (event) => {
+        console.log("dupa");
+        saveToStorage();
+        consentPopup.classList.add('hidden');
+    };
+
+    acceptBtn.addEventListener('click', acceptFn);
 
 
+    if (showPopup()) {
+        console.log("dupa");
+        consentPopup.classList.remove('hidden');
+    }
+};
+
+// menu
 const showMenu = (toggleId, navId) => {
     const toggle = document.getElementById(toggleId),
         nav = document.getElementById(navId);
 
     toggle.addEventListener('click', () => {
-        // Dodaj/usuń klasę do menu
+
         nav.classList.toggle('show-menu');
 
-        // Dodaj/usuń klasę do ikony
+
         toggle.classList.toggle('show-icon');
     });
 }
 
-// Wywołanie funkcji, przekazując odpowiednie id elementów
-showMenu('menuicon', 'nav-menu');
 
-// indexhtml
-if (window.location.pathname.endsWith("index.html")) {
-    window.history.replaceState(null, "", window.location.pathname.replace("index.html", ""));
-}
+showMenu('menuicon', 'nav-menu');
 
