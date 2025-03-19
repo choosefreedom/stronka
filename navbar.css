@@ -56,7 +56,11 @@ a {
 }
 
 .nav_menuicon:hover {
-    background-color: #a8a7a7;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .nav_open,
@@ -169,7 +173,7 @@ a {
     }
 
     .nav_list a:hover {
-        background-color: #a8a7a7;
+       background-color: #D1B399;
 
     }
 
