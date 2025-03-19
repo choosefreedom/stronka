@@ -39,14 +39,7 @@ a {
     display: flex;
 }
 
-.navlogo {
-    height: 90px;
-    width: 350px;
-    justify-content: center;
-    align-items: center;
-    object-fit: fill;
 
-}
 
 .nav_menuicon {
     position: relative;
@@ -110,7 +103,16 @@ a {
         align-items: center;
         z-index: 2;
     }
+    .navlogo {
+        height: 90px;
+        width: 350px;
 
+    }
+    .navlogo_img {
+        max-width: 350px;
+        height: 100%;
+        object-fit: fill;
+    }
     .banner {
         display: flex;
         align-items: center;
@@ -191,6 +193,7 @@ a {
         align-items: center;
         width: 100%;
         justify-content: space-between;
+        gap: 5rem;
 
     }
 
@@ -199,20 +202,19 @@ a {
         flex-shrink: 0;
     }
 
-    .nav_menu {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        justify-content: flex-end;
-        margin-right: 3%;
-        width: 100%;
-        max-width: 100%;
-        opacity: 1;
-        top: 0;
-        transition: none;
-        visibility: visible;
-        flex-grow: 1;
-    }
+
+.nav_menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    opacity: 1;
+    top: 0;
+    transition: none;
+    visibility: visible;
+}
 
     .nav_list {
         height: 100%;
@@ -259,9 +261,13 @@ a {
 
 
     }
-
+.navlogo_img {
+    max-width: 220px;
+    height: 90px;
+    object-fit: contain;
+}
     .nav_container {
-        max-height: 90px;
+        max-height: 100px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -311,7 +317,7 @@ a {
     }
 
     .nav_list a:hover {
-        background-color: #a8a7a7;
+        background-color: #D1B399;
         border-radius: inherit;
 
     }
