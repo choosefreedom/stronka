@@ -19,11 +19,13 @@ body::before {
     width: 100%;
 
 }
+
 :root {
     --z-fixed: 100;
     --header-height: 3.5rem;
 
 }
+
 #cookies_popup {
     text-align: center;
     position: fixed;
@@ -36,12 +38,12 @@ body::before {
     transition: opacity 1s ease;
 }
 
-#cookies_popup.hidden{
-        opacity: 0;
+#cookies_popup.hidden {
+    opacity: 0;
     pointer-events: none;
-    }
+}
 
-#cookies_popup a{
+#cookies_popup a {
     text-decoration: none;
     font-weight: bold;
     color: #582C12;
@@ -55,15 +57,11 @@ ul {
 a {
     text-decoration: none;
 }
-.tresc {
-    margin: 10rem 15%;
-    font-weight: 500;
-    font-size: 30px;
-}
+
 
 /*CLASSES*/
 @media screen and (min-width: 1120px) {
-    .homeimage{
+    .homeimage {
         display: flex;
         position: relative;
         top: 8rem;
@@ -77,10 +75,20 @@ a {
         height: auto;
         object-fit: cover;
     }
+    .info_slide {
+        position: absolute;
+        top: 0;
+        padding: 3rem 3rem;
+    }
 
 }
+.slider {
+    width: 40px;
+    height: 40px;
+}
+
 @media screen and (max-width: 1120px) {
-    .homeimage{
+    .homeimage {
         display: flex;
         position: relative;
         max-width: 100%;
@@ -99,3 +107,166 @@ a {
 
 }
 
+.home_container {
+    margin: 10rem 15%;
+    display: flex;
+    gap: 3rem;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 15rem;
+    margin-bottom: 2rem;
+    width: 50%;
+    height: 50%;
+}
+
+.description p {
+    margin: 0;
+    text-align: justify;
+}
+
+.description_slide {
+    margin-top: 3rem;
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    background: rgb(172, 149, 137);
+    border-radius: 3px;
+    height: 500px;
+    box-shadow: 0 0 2px 2px rgb(226, 207, 191);
+    justify-content: center;
+}
+
+
+
+
+
+.slide {
+    background-color: #eae5e1;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(100%);
+    transition: transform 0.7s ease,  visibility 0s linear 0.8s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+}
+
+
+.slide.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+    transition: transform 0.7s ease-in-out
+}
+
+
+.slide.out-left {
+    opacity: 1;
+    visibility: hidden;
+    transform: translateX(-100%);
+    transition: transform 0.7s ease-out;
+}
+
+
+.slide.in-right {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(100%);
+    transition: transform 0.6s ease-in;
+}
+
+.info_slide h1 {
+    color: #582C12;
+    padding-bottom: 3rem;
+}
+
+.info_slide p {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.slider_navigation {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 1rem;
+}
+
+.button {
+    background: rgba(108, 108, 108, 0.49);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.button.active {
+    background: #582C12;
+}
+
+@media screen and (max-width: 1120px) {
+    .home_container {
+        margin: 8rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+        height: 1000px;
+    }
+    .description {
+        margin:0;
+    }
+    .slide {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .description_slide {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider_navigation {
+        z-index: 2;
+        position: absolute;
+        display: flex;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        gap: 1rem;
+        justify-content: center;
+    }
+    .info_slide {
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0.5rem 1rem;
+        justify-content: center;
+
+    }
+
+    .info_slide h1 {
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+    .info_slide p {
+        font-size: 1rem;
+    }
+
+}
