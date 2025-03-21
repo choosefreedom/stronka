@@ -26,28 +26,7 @@ body::before {
 
 }
 
-#cookies_popup {
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 2rem 4rem;
-    height: 3.5rem;
-    background-color: rgba(255, 255, 255, 0.92);
-    transition: opacity 1s ease;
-}
 
-#cookies_popup.hidden {
-    opacity: 0;
-    pointer-events: none;
-}
-
-#cookies_popup a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #582C12;
-}
 
 
 ul {
@@ -80,6 +59,12 @@ a {
     margin-bottom: 2rem;
     width: 50%;
     height: 50%;
+    padding: 0.5rem;
+    grid-template-rows: repeat(2, auto);
+    font-weight: 500;
+    font-size: 20px;
+    justify-content: center;
+    text-align: left;
 }
 
 .description p {
@@ -170,8 +155,47 @@ a {
 .button.active {
     background: #582C12;
 }
-
+.nota_prawna {
+    width: 100%;
+    background-color: #323232;
+    margin: 0;
+    bottom: 0;
+}
+.nota_inside {
+    color: #D1B399;
+    margin: 0 5%;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    font-weight: 500;
+    font-size: 15px;
+    justify-content: center;
+    text-align: justify;
+}
 @media screen and (min-width: 1120px) {
+
+    #cookies_popup {
+        z-index: 999;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 2rem 4rem;
+        height: 3.5rem;
+        background-color: rgba(255, 255, 255, 0.92);
+        transition: opacity 1s ease;
+    }
+
+    #cookies_popup.hidden {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    #cookies_popup a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #582C12;
+    }
     .homeimage {
         display: flex;
         position: relative;
@@ -214,7 +238,7 @@ a {
     }
 
     .home_container {
-        margin: 8rem 0 0 0;
+        margin: 8rem 0 3.5rem 0;
         display: flex;
         flex-wrap: wrap;
         gap: 3rem;
@@ -269,6 +293,41 @@ a {
 
     .info_slide p {
         font-size: 1rem;
+    }
+    .nota_inside {
+        color: #D1B399;
+        margin: 0 1rem;
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        font-weight: 500;
+        font-size: 13px;
+        justify-content: center;
+        text-align: justify;
+    }
+    #cookies_popup {
+        z-index: 999;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 2rem 4rem 4rem 4rem;
+        height: 5rem;
+        background-color: rgba(255, 255, 255, 0.92);
+        transition: opacity 1s ease;
+    }
+
+    #cookies_popup.hidden {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    #cookies_popup a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #582C12;
     }
 
 }
