@@ -9,6 +9,7 @@ function setSlideClasses(outIndex, inIndex) {
     slides.forEach((slide, i) => {
         slide.classList.remove('active', 'out-left', 'in-right');
     });
+
     slides[outIndex].classList.add('out-left');
     slides[inIndex].classList.add('in-right');
 
@@ -34,8 +35,10 @@ function autoNavigation() {
 
 //manual
 function manualNavigation(manualIndex) {
-    setSlideClasses(currentSlide, manualIndex);
-    currentSlide = manualIndex;
+    if (manualIndex !== currentSlide) {
+        setSlideClasses(currentSlide, manualIndex);
+        currentSlide = manualIndex;
+    }
 }
 
 // nav
