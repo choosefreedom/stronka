@@ -108,10 +108,10 @@
 }
 
 .item:hover {
-    background: #f6f5f5; /* Efekt podświetlenia przy najechaniu */
+    background: #f6f5f5;
 }
 .item_col {
-    background: #e8d7c8;
+    background: #E4C7B7;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -126,13 +126,13 @@
 }
 
 .item_col:hover {
-    background: #eddfcf; /* Efekt podświetlenia przy najechaniu */
+    background: #eddfcf;
 }
 .title {
     font-weight: bold;
     font-size: 22px;
     padding: 10px;
-    color: #582C12;
+    color: #56443F;
     text-align: center;
 }
 
