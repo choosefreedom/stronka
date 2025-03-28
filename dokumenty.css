@@ -91,9 +91,7 @@
         margin-bottom: 0;
     }
 }
-
-.item {
-    background: #fffdfd;
+.item_size {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -104,25 +102,17 @@
     gap: 20px;
     place-items: center;
     min-height: 300px;
+}
+.item {
+    background: #fffdfd;
 
 }
 
 .item:hover {
-    background: #f6f5f5;
+    background: #ececec;
 }
 .item_col {
-    background: #E4C7B7;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: grid;
-    gap: 20px;
-    place-items: center;
-    min-height: 300px;
-
+    background: rgba(209, 179, 153, 0.63);
 }
 
 .item_col:hover {

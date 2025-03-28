@@ -50,9 +50,6 @@ a {
 
 .nav_menuicon:hover {
     border-color: black;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 50%;
     cursor: pointer;
 }
 
@@ -88,7 +85,18 @@ a {
     align-items: center;
     transition: background-color .3s;
 }
-
+.nav_menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    opacity: 1;
+    top: 0;
+    transition: none;
+    visibility: visible;
+}
 /*LARGE*/
 @media screen and (min-width: 1120px) {
     .info {
@@ -124,27 +132,18 @@ a {
         text-decoration: none;
         font-size: 1rem;
         padding: 0.5rem 1rem;
-
     }
-
+    .banner a:hover {
+        color: #D1B399;
+    }
     .banner li {
         display: flex;
         align-items: center;
     }
 
 
-    .nav_menu {
-        display: flex;
-        justify-content: center;
-        position: relative;
-        width: 100%;
-        max-width: 1120px;
-        margin: 0 auto;
-        opacity: 1;
-        top: 0;
-        transition: none;
-        visibility: visible;
-    }
+
+
 
     .nav_container {
         margin-inline: auto;
@@ -203,18 +202,6 @@ a {
     }
 
 
-.nav_menu {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-    max-width: 1120px;
-    margin: 0 auto;
-    opacity: 1;
-    top: 0;
-    transition: none;
-    visibility: visible;
-}
 
     .nav_list {
         height: 100%;
