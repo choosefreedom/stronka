@@ -97,6 +97,11 @@ a {
     transition: none;
     visibility: visible;
 }
+.nav_list a:hover {
+    background: rgba(209, 179, 153, 0.63);
+    border-radius: inherit;
+
+}
 /*LARGE*/
 @media screen and (min-width: 1120px) {
     .info {
@@ -173,10 +178,7 @@ a {
         padding: 0;
     }
 
-    .nav_list a:hover {
-       background-color: #dfc3aa;
 
-    }
 
     .nav_link {
         padding: 1rem;
@@ -303,11 +305,7 @@ a {
 
     }
 
-    .nav_list a:hover {
-        background-color: #dfc3aa;
-        border-radius: inherit;
 
-    }
 }
 
 .nav_menu::-webkit-scrollbar {
