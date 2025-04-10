@@ -51,6 +51,18 @@ const showMenu = (toggleId, navId) => {
     });
 }
 
-
+// closing after click anywhere
 showMenu('menuicon', 'nav-menu');
 
+document.addEventListener('click', (event) => {
+    const nav = document.getElementById('nav-menu');
+    const toggle = document.getElementById('menuicon');
+
+    const clickedInsideNav = nav.contains(event.target);
+    const clickedToggle = toggle.contains(event.target);
+
+    if (!clickedInsideNav && !clickedToggle && nav.classList.contains('show-menu')) {
+        nav.classList.remove('show-menu');
+        toggle.classList.remove('show-icon');
+    }
+});
