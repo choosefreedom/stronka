@@ -74,7 +74,7 @@
     }
 
     .dane {
-        margin-bottom: 100px;
+        margin-bottom: 5rem;
     }
     
 }
@@ -269,16 +269,20 @@
 }
 
 .work {
-    margin: 0;
+    margin: 1rem 0 0 0;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 600;
 
 }
 
 .name {
     font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 0;
+    font-weight: 550;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+.contact_info {
+    font-size: 20px;
 }
 
 .brown {
