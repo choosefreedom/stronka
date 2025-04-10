@@ -41,3 +41,13 @@
         gap: 3rem;
     }
 }
+.mail_privacy {
+    text-decoration: none;
+    font-weight: bold;
+    color: #56443F;
+}
+.mail_privacy:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #937d6b;
+}
