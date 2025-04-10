@@ -12,6 +12,11 @@
     color: #D1B399;
     text-decoration: none;
 }
+.footer_info,
+.footer_contact,
+.footer_else {
+    align-self: start;
+}
 @media screen and (min-width: 1120px) {
 
     .footer {
