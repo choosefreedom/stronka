@@ -32,7 +32,7 @@
     .oplaty_tresc,
     .taksa_tresc,
     .oplaty_info {
-        margin: 3rem 20% 1rem 20%;
+        margin: 1rem 20% 1rem 20%;
         display: grid;
         grid-template-rows: repeat(2, auto);
         font-weight: 500;
@@ -40,6 +40,7 @@
         justify-content: center;
         text-align: left;
     }
+
 
     .oplaty_naglowek p,
     .taksa_naglowek p,
@@ -53,9 +54,10 @@
 
     .taksa_container {
         width: 100%;
-        padding: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
         background-color: #E8D7C8FF;
-        margin-top: -2rem;
+
     }
 
     .kreska {
@@ -96,14 +98,15 @@
 
     .taksa_container {
         width: 100%;
-        padding: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
         background-color: #e8d7c8;
         margin-top: -2rem;
     }
 
     .oplaty_tresc,
     .oplaty_info {
-        margin: 3rem 10%;
+        margin: 5rem 10% 3rem 10%;
         display: grid;
         grid-template-rows: repeat(2, auto);
         justify-content: center;
@@ -112,7 +115,7 @@
         font-size: 18px;
     }
     .taksa_tresc {
-        margin: 3rem 10% 0 10%;
+        margin: 0 10%;
         display: grid;
         grid-template-rows: repeat(2, auto);
         justify-content: center;
@@ -163,4 +166,11 @@
 }
 .little {
     margin: 0;
+}
+.middot-symbol {
+    font-weight: 1000;
+    font-size: 20px;
+    color: #000000;
+    margin: 0  0.5rem;
+    text-align: center;
 }
