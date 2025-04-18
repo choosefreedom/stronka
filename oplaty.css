@@ -9,7 +9,7 @@
 @media screen and (min-width: 1120px) {
     .oplaty_container {
         width: 100%;
-        padding-bottom: 2rem;
+
         background-color: whitesmoke;
         margin-top: 10rem;
     }
@@ -32,8 +32,7 @@
     .oplaty_tresc,
     .taksa_tresc,
     .oplaty_info {
-        margin: 3rem 20%;
-        padding: 0.5rem;
+        margin: 3rem 20% 1rem 20%;
         display: grid;
         grid-template-rows: repeat(2, auto);
         font-weight: 500;
@@ -41,11 +40,7 @@
         justify-content: center;
         text-align: left;
     }
-.oplaty_naglowek,
-.taksa_naglowek,
-.oplaty_info_naglowek {
-    margin-bottom: 3rem;
-}
+
     .oplaty_naglowek p,
     .taksa_naglowek p,
     .oplaty_info_naglowek p {
@@ -58,8 +53,7 @@
 
     .taksa_container {
         width: 100%;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+        padding: 2rem;
         background-color: #E8D7C8FF;
         margin-top: -2rem;
     }
@@ -96,22 +90,18 @@
     }
     .oplaty_container {
         width: 100%;
-        padding-top: 3rem;
-        padding-bottom: 2rem;
         background-color: whitesmoke;
         margin-top: -2rem;
     }
 
     .taksa_container {
         width: 100%;
-        padding-top: 1rem;
-        padding-bottom: 2rem;
+        padding: 2rem;
         background-color: #e8d7c8;
         margin-top: -2rem;
     }
 
     .oplaty_tresc,
-    .taksa_tresc,
     .oplaty_info {
         margin: 3rem 10%;
         display: grid;
@@ -120,6 +110,16 @@
         text-align: left;
         font-weight: 500;
         font-size: 18px;
+    }
+    .taksa_tresc {
+        margin: 3rem 10% 0 10%;
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        justify-content: center;
+        text-align: left;
+        font-weight: 500;
+        font-size: 18px;
+
     }
 
     .oplaty_naglowek p,
@@ -160,4 +160,7 @@
 .ust:hover {
     color: #937d6b;
 
+}
+.little {
+    margin: 0;
 }

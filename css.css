@@ -46,7 +46,7 @@ a {
 }
 
 .home_container {
-    margin: 10rem 15%;
+    margin: 3rem 15% 10rem 15%;
     display: flex;
     gap: 3rem;
 }
@@ -55,7 +55,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-top: 15rem;
+    margin-top: 3rem;
     margin-bottom: 2rem;
     width: 50%;
     height: 50%;
@@ -350,4 +350,8 @@ a {
     }
 
 }
-
+.home_naglowek {
+    font-size: 35px;
+    font-weight: bold;
+margin: 10rem 18% 0 18%;
+}
