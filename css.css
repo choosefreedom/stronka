@@ -27,8 +27,6 @@ body::before {
 }
 
 
-
-
 ul {
     list-style: none;
 }
@@ -48,6 +46,8 @@ a {
 .home_container {
     margin: 3rem 10% 10rem 10%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 3rem;
 }
 
@@ -59,11 +59,10 @@ a {
     width: 50%;
     height: 50%;
     padding: 0.5rem;
-    grid-template-rows: repeat(2, auto);
     font-weight: 500;
     font-size: 20px;
     justify-content: center;
-    text-align: left;
+    text-align: center;
 }
 
 .description p {
@@ -76,10 +75,10 @@ a {
     position: relative;
     overflow: hidden;
     width: 600px;
-    background: rgba(209, 179, 153, 0.63);
+    background: rgba(239 221 205 / 63%);
     border-radius: 3px;
     height: 500px;
-    box-shadow: 0 0 5px 5px rgba(162, 135, 118, 0.58);
+    box-shadow: 0 0 5px 5px rgba(205 188 177 / 58%);
     justify-content: center;
 }
 
@@ -154,12 +153,14 @@ a {
 .button.active {
     background: #56443F;
 }
+
 .nota_prawna {
     width: 100%;
     background-color: #323232;
     margin: 0;
     bottom: 0;
 }
+
 .nota_inside {
     color: #D1B399;
     margin: 0 5%;
@@ -170,6 +171,7 @@ a {
     justify-content: center;
     text-align: justify;
 }
+
 @media screen and (min-width: 1120px) {
 
     #cookies_popup {
@@ -195,6 +197,7 @@ a {
         font-weight: bold;
         color: #56443F;
     }
+
     .homeimage {
         display: flex;
         position: relative;
@@ -215,11 +218,13 @@ a {
         top: 0;
         padding: 3rem 3rem;
     }
+
     .description_slide {
         margin-left: 10rem;
     }
 
 }
+
 @media screen and (max-width: 1650px) and (min-width: 1121px) {
     .description_slide {
         margin-left: 2rem;
@@ -245,7 +250,7 @@ a {
     }
 
     .home_container {
-        margin: 4rem 0 3.5rem 0;
+        margin: 4rem 0 0.75rem 0;
         display: flex;
         flex-wrap: wrap;
         gap: 3rem;
@@ -301,6 +306,7 @@ a {
     .info_slide p {
         font-size: 1rem;
     }
+
     .nota_inside {
         color: #D1B399;
         margin: 0 1rem;
@@ -311,6 +317,7 @@ a {
         justify-content: center;
         text-align: justify;
     }
+
     #cookies_popup {
         z-index: 999;
         display: flex;
@@ -357,6 +364,7 @@ a {
     }
 
 }
+
 .home_naglowek {
     display: flex;
     flex-direction: column;
@@ -367,20 +375,24 @@ a {
     align-items: center;
     text-align: center;
 }
+
 .home_background_container {
     width: 100px;
     height: 130px;
     /*margin-left: 40%;*/
 }
+
 .home_background {
     opacity: 0.5;
     width: 100%;
     height: 100%;
     object-fit: fill;
 }
+
 .naglowek_home {
     font-size: 40px;
 }
+
 .line_home {
     height: 1px;
 }
