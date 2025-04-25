@@ -13,8 +13,9 @@
         height: auto;
         object-fit: cover;
     }
+
     .dokumenty_container {
-       left:0;
+        left: 0;
         right: 0;
         width: 100%;
         padding-top: 1rem;
@@ -22,6 +23,7 @@
         margin: -2rem 0 0 0;
         display: flex;
     }
+
     .container {
         margin: 3rem 20%;
         display: grid;
@@ -30,12 +32,14 @@
         width: 100%;
         align-items: start;
     }
+
     .info_dokumenty {
 
         margin: 20px 20% 2rem 20%;
         display: grid;
         justify-content: left;
     }
+
     .dokumenty_naglowek {
         margin: 10rem 20% 0 20%;
         display: grid;
@@ -45,13 +49,57 @@
         font-weight: 500;
         font-size: 18px;
     }
+
     .docs {
         font-weight: 500;
         font-size: 20px;
-        margin:0;
+        margin: 0;
     }
 
+    .item_size {
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: grid;
+        gap: 20px;
+        place-items: center;
+        min-height: 300px;
+        min-width: 400px;
+    }
+
+    .item {
+        background: #fffdfd;
+
+    }
+
+    .item_col {
+        background: rgba(255 239 224 / 63%);
+    }
+    .title {
+        font-weight: bold;
+        font-size: 22px;
+        padding: 10px;
+        color: #56443F;
+        text-align: center;
+    }
+    .content {
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        padding: 0 15px;
+        font-size: 19px;
+        font-weight: 400;
+    }
+
+    .content.open {
+        max-height: none;
+        padding: 10px 15px;
+    }
 }
+
 /*MOBILE*/
 @media screen and (max-width: 1120px) {
     .banner3 {
@@ -70,12 +118,14 @@
         object-fit: cover;
         margin-bottom: 3rem;
     }
+
     .info_dokumenty {
 
         margin: 3rem 10% 1rem 10%;
         display: grid;
         justify-content: left;
     }
+
     .dokumenty_naglowek {
         margin: 3rem 10%;
         display: grid;
@@ -85,74 +135,92 @@
         font-weight: 500;
         font-size: 18px;
     }
+
     .docs {
         font-weight: 500;
         font-size: 18px;
         margin-bottom: 0;
     }
-}
-.item_size {
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: grid;
-    gap: 20px;
-    place-items: center;
-    min-height: 300px;
-    min-width: 400px;
-}
-.item {
-    background: #fffdfd;
 
+    .dokumenty_container {
+        width: 100%;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        margin: -2rem 0 0 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container {
+      display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: start;
+    }
+
+    .item_size {
+
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: grid;
+        gap: 20px;
+        place-items: center;
+        min-height: 300px;
+
+    }
+
+    .item {
+        background: #fffdfd;
+
+    }
+
+    .item_col {
+        background: rgba(255 239 224 / 63%);
+    }
+    .title {
+        font-weight: bold;
+        font-size: 22px;
+        padding: 10px 0 10px 0;
+        color: #56443F;
+        text-align: center;
+    }
+    .content {
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+       margin: 1rem;
+        font-size: 19px;
+        font-weight: 400;
+    }
+
+    .content.open {
+        max-height: none;
+       margin: 1rem;
+    }
 }
 
-/*.item:hover {*/
-/*    background: #ececec;*/
-/*}*/
-.item_col {
-    background: rgba(255 239 224 / 63%);
-}
 
-/*.item_col:hover {*/
-/*    background: #eddfcf;*/
-/*}*/
-.title {
-    font-weight: bold;
-    font-size: 22px;
-    padding: 10px;
-    color: #56443F;
-    text-align: center;
-}
 
-.content {
-    max-height: 0;
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
-    padding: 0 15px;
-    font-size: 19px;
-    font-weight: 400;
-}
 
-.content.open {
-    max-height: none;
-    padding: 10px 15px;
-}
+
+
 
 
 .more {
     text-align: center;
     margin: 0;
 }
+
 .decor_img {
     width: 100%;
     height: 50px;
     display: block;
 }
+
 .decor_hide {
     display: none;
+    margin: 0.5rem;
 }
 
 .img {
@@ -170,8 +238,7 @@
 }
 
 .telefonicznie:active,
-.mailowo:active
-{
+.mailowo:active {
     text-decoration: none;
     color: inherit;
     background: none;
@@ -184,7 +251,7 @@
 
 }
 
-.dokumenty_naglowek p{
+.dokumenty_naglowek p {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 0;
