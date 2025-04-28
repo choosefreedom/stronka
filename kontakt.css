@@ -31,7 +31,7 @@
 }
 
 .intro {
-    margin-bottom: 5px;
+  margin: 0;
     font-size: 40px;
     font-weight: bold;
 }
@@ -166,8 +166,8 @@
     }
 
     .dane {
-        margin-top: 2rem;
-        margin-bottom: 3.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.4rem;
     }
     .inside {
         margin: 3rem 10%;
