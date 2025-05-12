@@ -49,6 +49,8 @@ document.querySelectorAll('.item_col').forEach(item => {
 function onSizeChange() {
     const element = document.getElementById('change2');
     const element2 = document.getElementById('change1');
+    const element3 = document.getElementById('change3');
+    const element4 = document.getElementById('change4');
 
     const isSmallScreen = window.matchMedia("(max-width: 1120px)").matches;
 
@@ -56,12 +58,16 @@ function onSizeChange() {
     // setElementState(element2, !isSmallScreen);
 
     if (window.matchMedia("(max-width: 1120px)").matches) {
-       setElementState(element,true);
+       setElementState(element, true);
+       setElementState(element3, true);
        setElementState(element2, false);
+       setElementState(element4, false);
 
     } else {
         setElementState(element,false);
+        setElementState(element3,false);
         setElementState(element2,true);
+        setElementState(element4,true);
     }
 }
 function setElementState(element,active = false) {
@@ -75,9 +81,9 @@ function setElementState(element,active = false) {
     }
 }
 
-// Nasłuchujemy zmian rozmiaru ekranu
+
 window.addEventListener('resize', onSizeChange);
-// Wywołujemy funkcję przy załadowaniu strony
+
 onSizeChange();
 
 
