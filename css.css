@@ -171,7 +171,22 @@ a {
     justify-content: center;
     text-align: justify;
 }
-
+.naglowek_home {
+    font-size: 60px;
+    margin-bottom: 0.4rem;
+    color: #D1B399;
+}
+.naglowek_name {
+    font-size: 50px;
+    margin: 0;
+    color: #D1B399;
+    font-family: 'Alamatha', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.line_home {
+    height: 1px;
+}
 @media screen and (min-width: 1120px) {
 
     #cookies_popup {
@@ -417,7 +432,7 @@ a {
     }
     .home_naglowek_background {
         margin-top: 5rem;
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
         width: 100%;
         background-color: #323232;
         display: flex;
@@ -425,6 +440,22 @@ a {
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+    .naglowek_home {
+        font-size: 40px;
+        margin-bottom: 0.4rem;
+        color: #D1B399;
+    }
+    .naglowek_name {
+        font-size: 35px;
+        margin: 0;
+        color: #D1B399;
+        font-family: 'Alamatha', serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+    .line_home {
+        height: 1px;
     }
 }
 
@@ -452,19 +483,3 @@ a {
 
 
 
-.naglowek_home {
-    font-size: 60px;
-    margin-bottom: 0.4rem;
-    color: #D1B399;
-}
-.naglowek_name {
-    font-size: 50px;
-    margin: 0;
-    color: #D1B399;
-    font-family: 'Alamatha', serif;
-    font-weight: 400;
-    font-style: italic;
-}
-.line_home {
-    height: 1px;
-}

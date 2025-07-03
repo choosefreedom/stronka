@@ -15,29 +15,31 @@
     }
 
     .dokumenty_container {
-        left: 0;
-        right: 0;
         width: 100%;
         padding-top: 1rem;
         padding-bottom: 2rem;
-        margin: -2rem 0 0 0;
+        margin: 1rem clamp(10px, 20%, 20px);
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .container {
-        margin: 3rem 20%;
+        margin: 3rem clamp(10px, 20%, 600px);
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
         width: 100%;
         align-items: start;
+        justify-content: center;
     }
 
     .info_dokumenty {
 
-        margin: 20px 20% 2rem 20%;
+        margin: 3rem clamp(10px, 20%, 900px);
         display: grid;
-        justify-content: left;
+        justify-content: center;
+       align-items: center;
     }
 
     .dokumenty_naglowek {
@@ -155,6 +157,8 @@
         flex-wrap: wrap;
         width: 100%;
         align-items: start;
+        justify-content: center;
+        margin: 0;
     }
 
     .item_size {
@@ -197,6 +201,17 @@
     .content.open {
         max-height: none;
        margin: 1rem;
+    }
+    .item_size {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: grid;
+        gap: 20px;
+        place-items: center;
+        min-height: 300px;
+        width: 100%;
     }
 }
 
