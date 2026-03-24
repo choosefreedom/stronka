@@ -1,0 +1,67 @@
+
+.rodo {
+    margin: 0 10% 3rem 10%;
+    font-size: 20px;
+
+}
+
+.rodo_container {
+    margin: 10rem 15% 0 15%;
+}
+
+
+.kanca_naglowek {
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nazwisko {
+
+    justify-content: center;
+    align-content: center;
+}
+@media screen and (min-width: 1120px) {
+
+
+    .rodo_page {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        gap: 10rem;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .rodo_page {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        gap: 3rem;
+    }
+}
+.mail_privacy {
+    text-decoration: none;
+    font-weight: bold;
+    color: #56443F;
+}
+.mail_privacy:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #937d6b;
+}
+.decor_line {
+    width: 100%;
+    height: 1px;
+    display: flex;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+
+}
+.linia_privacy {
+    width: 100%;
+    object-fit: fill;
+}
