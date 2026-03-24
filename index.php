@@ -9,16 +9,17 @@ include 'includes/header.php';
 <div class="home_naglowek_background">
     <h1 class="naglowek_home">Kancelaria Notarialna</h1>
     <h2 class="naglowek_name">Oliwia Ślęzak</h2>
-    <
+
 </div>
 <div class="home_naglowek">
     <div class="home_background_container">
-        <img class="home_background" src="img/notariusz_01.png" alt="element dekoracyjny notariusz Bydgoszcz">
-        <img class="home_background" src="img/notariusz_02.png" alt="element dekoracyjny wizytówka notariusz Bydgoszcz">
-        <img class="home_background" src="img/notariusz_03.png" alt="element dekoracyjny u notariusza Bydgoszcz">
+        <img class="home_background" src="img/notariusz_01-1.webp" alt="element dekoracyjny notariusz Bydgoszcz" fetchpriority="high">
+        <img class="home_background" src="img/notariusz_02-2.webp" alt="element dekoracyjny wizytówka notariusz Bydgoszcz" fetchpriority="high">
+        <img class="home_background" src="img/notariusz_03-2.webp" alt="element dekoracyjny u notariusza Bydgoszcz" fetchpriority="high">
 
     </div>
 </div>
+<main>
 <div class="home_container">
 
     <div class="description">
@@ -102,7 +103,7 @@ include 'includes/header.php';
             o notariacie.</p>
     </div>
 </div>
-
+</main>
 <?php include 'includes/footer.php'; ?>
 <script src="javas/menu.js"></script>
 <script src="javas/slider.js"></script>
