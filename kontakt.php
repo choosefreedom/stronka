@@ -36,7 +36,7 @@ include 'includes/header.php';
                                                                              class="licontact">os@notariuszbyd.pl</a>
             </li>
             <li><img src="img/mapbr.png" alt="ikona mapy" class="brown"> <a
-                    href="https://maps.app.goo.gl/N8YfzY7t3EfZ9TkF7" target="_blank" class="licontact"> ul. Jagiellońska
+                    href="https://maps.app.goo.gl/XojQcoZCyUK3M69f7" target="_blank" class="licontact"> ul. Jagiellońska
                 107 lok.1, Bydgoszcz</a></li>
         </ul>
         <div class="dane">
