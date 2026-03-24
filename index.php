@@ -13,12 +13,23 @@ include 'includes/header.php';
 </div>
 <div class="home_naglowek">
     <div class="home_background_container">
-        <img class="home_background" src="img/notariusz_01-1.webp" alt="element dekoracyjny notariusz Bydgoszcz" fetchpriority="high">
-        <img class="home_background" src="img/notariusz_02-2.webp" alt="element dekoracyjny wizytówka notariusz Bydgoszcz" fetchpriority="high">
-        <img class="home_background" src="img/notariusz_03-2.webp" alt="element dekoracyjny u notariusza Bydgoszcz" fetchpriority="high">
+        <img class="home_background" src="img/notariusz_01-1.webp" srcset="
+     img/notariusz_01_120.webp 120w,
+    img/notariusz_01_240.webp 240w,
+    img/notariusz_01_350.webp 350w"
+             alt="element dekoracyjny notariusz Bydgoszcz" fetchpriority="high">
+        <img class="home_background" src="img/notariusz_02-2.webp" srcset="
+     img/notariusz_02_120.webp 120w,
+    img/notariusz_02_240.webp 240w,
+    img/notariusz_02_350.webp 350w" alt="element dekoracyjny wizytówka notariusz Bydgoszcz" fetchpriority="high">
+        <img class="home_background" src="img/notariusz_03-2.webp" srcset="
+     img/notariusz_03_120.webp 120w,
+    img/notariusz_03_240.webp 240w,
+    img/notariusz_03_350.webp 350w" alt="element dekoracyjny u notariusza Bydgoszcz" fetchpriority="high">
 
     </div>
 </div>
+
 <main>
 <div class="home_container">
 
