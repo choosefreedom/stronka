@@ -9,22 +9,22 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
-#<IfModule mod_expires.c>
-#    ExpiresActive On
-#
-#    # Obrazy - 14 dni
-#    ExpiresByType image/png "access plus 14 days"
-#    ExpiresByType image/jpeg "access plus 14 days"
-#    ExpiresByType image/webp "access plus 14 days"
-#    ExpiresByType image/svg+xml "access plus 14 days"
-#    ExpiresByType image/x-icon "access plus 14 days"
-#
-#    # CSS i JS - 14 dni
-#    ExpiresByType text/css "access plus 14 days"
-#    ExpiresByType application/javascript "access plus 14 days"
-#    ExpiresByType text/javascript "access plus 14 days"
-#
-#    # Fonty - 14 dni
-#    ExpiresByType font/woff2 "access plus 14 days"
-#    ExpiresByType font/woff "access plus 14 days"
-#</IfModule>
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # Obrazy - 14 dni
+    ExpiresByType image/png "access plus 14 days"
+    ExpiresByType image/jpeg "access plus 14 days"
+    ExpiresByType image/webp "access plus 14 days"
+    ExpiresByType image/svg+xml "access plus 14 days"
+    ExpiresByType image/x-icon "access plus 14 days"
+
+    # CSS i JS - 14 dni
+    ExpiresByType text/css "access plus 14 days"
+    ExpiresByType application/javascript "access plus 14 days"
+    ExpiresByType text/javascript "access plus 14 days"
+
+    # Fonty - 14 dni
+    ExpiresByType font/woff2 "access plus 14 days"
+    ExpiresByType font/woff "access plus 14 days"
+</IfModule>
