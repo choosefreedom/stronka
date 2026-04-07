@@ -3,7 +3,7 @@ $title = "Polityka prywatności Kancelarii Notarialnej";
 $canonical = "https://notariuszbyd.pl/privacy";
 $description = "Polityka prywatności Kancelarii Notarialnej Oliwia Ślęzak w Bydgoszczy. Informacje o przetwarzaniu danych osobowych.";
 $og_title = "Kancelaria notarialna Oliwia Ślęzak Bydgoszcz";
-$banner = "/img/pp.jpg";
+$banner = "/img/pp.webp";
 $banner_alt = "polityka prywatności";
 include 'includes/header.php';
 ?>
@@ -98,7 +98,7 @@ include 'includes/header.php';
     <p> 1. Kancelaria zobowiązana jest do przekazywania niezbędnych danych osobowych na podstawie bezwzględnie
         obowiązujących przepisów prawa, w tym na żądanie uprawnionych sądów, organów i instytucji.</p>
     <h2> Zmiany polityki prywatności </h2>
-    <p> 1. Niniejsza polityka prywatności jest na bieżąco weryfikowana i w razie potrzeby aktualizowana. Aktualna wersja
+    <p> 1. Niniejsza polityka prywatności jest na bieżąco weryfikowana i (w razie potrzeby) aktualizowana. Aktualna wersja
         Polityki prywatności została przyjęta 1 kwietnia 2025 roku.</p>
     <strong> W razie pytań lub wątpliwości związanych z działaniami Polityki Prywatności, które dotyczyć będą informacji
         będących Państwa danymi osobowymi, mogą Państwo przesłać je na adres poczty elektronicznej: <a class="mail_privacy"

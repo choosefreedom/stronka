@@ -3,7 +3,7 @@ $title = "Dokumenty potrzebne do Kancelarii Notarialnej";
 $canonical = "https://notariuszbyd.pl/dokumenty";
 $description = "Dowiedz się jakie dokumenty są potrzebne do notariusza w Bydgoszczy. Lista wymaganych dokumentów do aktów notarialnych, testamentów, pełnomocnictw i umów sprzedaży.";
 $og_title = "Kancelaria notarialna Oliwia Ślęzak Bydgoszcz";
-$banner = "/img/dokumenty.jpg";
+$banner = "/img/dokumenty.webp";
 $banner_alt = "dokumenty do notariusza";
 include 'includes/header.php';
 ?>

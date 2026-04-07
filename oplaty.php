@@ -3,7 +3,7 @@ $title = "Opłaty i taksa notarialna - Notariusz Bydgoszcz";
 $canonical = "https://notariuszbyd.pl/oplaty";
 $description = "Sprawdź opłaty notarialne i taksę notarialną w Kancelarii Notarialnej Oliwia Ślęzak w Bydgoszczy. Przejrzyste koszty aktów notarialnych, pełnomocnictw i innych czynności notarialnych.";
 $og_title = "Kancelaria notarialna Oliwia Ślęzak Bydgoszcz";
-$banner = "/img/prawo_notarialne.jpg";
+$banner = "/img/prawo_notarialne.webp";
 $banner_alt = "prawo notarialne";
 include 'includes/header.php';
 ?>

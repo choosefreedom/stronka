@@ -4,7 +4,7 @@ $title = "Kontakt - Kancelaria Notarialna Oliwia Ślęzak Bydgoszcz";
 $canonical = "https://notariuszbyd.pl/kontakt";
 $description = "Zapraszamy do kontaktu z profesjonalną kancelarią notarialną w Bydgoszczy. Umowy, pełnomocnictwa, akty notarialne, testamenty. Centrum miasta, Bartodzieje Bydgoszcz, możliwość wizyt w weekendy.";
 $og_title = "Kontakt - Kancelaria notarialna Oliwia Ślęzak Bydgoszcz";
-$banner = "/img/kamienica.jpg";
+$banner = "/img/kamienica.webp";
 $banner_alt = "kamienica notariusz";
 include 'includes/header.php';
 ?>

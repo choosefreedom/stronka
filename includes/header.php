@@ -1,3 +1,10 @@
+<?php
+if ($_SERVER['HTTP_HOST'] == 'localhost:8000') {
+    $base_url = '/';
+} else {
+    $base_url = '/';
+}
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -70,8 +77,8 @@
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <div id="cookies_popup" class="hidden">
-    <p>Korzystając ze strony akceptują Państwo warunki <a target="_blank" href="../privacy.php"> Polityki prywatności</a>.
-        Zachęcamy do zapoznania się ze wszystkimi informacjami. <a id="accept" href="#"> Akceptuj i zamknij.</a>.</p>
+    <p>Korzystając ze strony akceptują Państwo warunki<a target="_blank" href="../privacy.php"> Polityki prywatności</a>.
+        Zachęcamy do zapoznania się ze wszystkimi informacjami. <a id="accept" href="#"> Akceptuj i zamknij.</a></p>
 </div>
 <header class="header">
     <div class="info">

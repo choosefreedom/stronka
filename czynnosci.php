@@ -3,7 +3,7 @@ $title = "Czynności notarialne w Kancelarii Notarialnej";
 $canonical = "https://notariuszbyd.pl/czynnosci";
 $description = "Kancelaria Notarialna Oliwia Ślęzak w Bydgoszczy oferuje pełen zakres czynności notarialnych: akty notarialne, testamenty, pełnomocnictwa, umowy sprzedaży, darowizny i czynności związane z prowadzeniem rejestrów akcjonariuszy prostych spółek akcyjnych.";
 $og_title = "Kancelaria notarialna Oliwia Ślęzak Bydgoszcz";
-$banner = "/img/czynnosci.jpg";
+$banner = "/img/czynnosci.webp";
 $banner_alt = "czynności notarialne";
 include 'includes/header.php';
 ?>

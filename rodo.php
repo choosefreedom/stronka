@@ -3,7 +3,7 @@ $title = "RODO Kancelarii Notarialnej Oliwia Ślęzak";
 $canonical = "https://notariuszbyd.pl/rodo";
 $description = "Informacje o ochronie danych osobowych w Kancelarii Notarialnej Oliwia Ślęzak w Bydgoszczy. Obowiązek informacyjny zgodnie z rozporządzeniem RODO.";
 $og_title = "Kancelaria notarialna Oliwia Ślęzak Bydgoszcz";
-$banner = "/img/pp.jpg";
+$banner = "/img/pp.webp";
 $banner_alt = "polityka prywatności rodo";
 include 'includes/header.php';
 ?>

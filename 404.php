@@ -1,9 +1,9 @@
 <?php
-$title = "404 - Strona nie została znaleziona | Kancelaria Notarialna Bydgoszcz";
+$title = "404 - strona nie została znaleziona | Kancelaria Notarialna Bydgoszcz";
 $canonical = "https://notariuszbyd.pl/404";
 $description = "Strona nie została znaleziona. Wróć na stronę główną kancelarii notarialnej w Bydgoszczy.";
 $og_title = "404 - Strona nie została znaleziona";
-$banner = "/img/kamienica.jpg";
+$banner = "/img/kamienica.webp";
 $banner_alt = "kamienica notariusz";
 $noindex = true;
 include 'includes/header.php';
