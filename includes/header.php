@@ -94,18 +94,18 @@ Jagiellońska 107 lok. 1, Bydgoszcz</a></li>
     <nav class="nav_container">
 
         <div class="navbar">
-            <a href="../index.php" class="navlogo">
+            <a href="/" class="navlogo">
                 <img src="../notariusz_logo.png" class="navlogo_img" alt="logo">
             </a>
         </div>
 
         <div class="nav_menu" id="nav-menu">
             <ul class="nav_list">
-                <li><a href="../index.php" class="nav_link">O KANCELARII</a></li>
-                <li><a href="../czynnosci.php" class="nav_link">CZYNNOŚCI NOTARIALNE</a></li>
-                <li><a href="../dokumenty.php" class="nav_link">DOKUMENTY</a></li>
-                <li><a href="../oplaty.php" class="nav_link">OPŁATY</a></li>
-                <li><a href="../kontakt.php" class="nav_link">KONTAKT</a></li>
+                <li><a href="<?php echo $base_url; ?>" class="nav_link">O KANCELARII</a></li>
+                <li><a href="<?php echo $base_url; ?>czynnosci" class="nav_link">CZYNNOŚCI NOTARIALNE</a></li>
+                <li><a href="<?php echo $base_url; ?>dokumenty" class="nav_link">DOKUMENTY</a></li>
+                <li><a href="<?php echo $base_url; ?>oplaty" class="nav_link">OPŁATY</a></li>
+                <li><a href="<?php echo $base_url; ?>kontakt" class="nav_link">KONTAKT</a></li>
             </ul>
         </div>
 

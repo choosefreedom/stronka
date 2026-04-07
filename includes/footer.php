@@ -36,8 +36,8 @@
     <div class="footer_inside2">
         <div class="copyright">
             <div class="pp">
-                <a target="_blank" href="/privacy.php" class="pp_copyright">Polityka prywatności</a>
-                <a target="_blank" href="/rodo.php" class="pp_copyright">RODO</a>
+                <a target="_blank" href="/privacy" class="pp_copyright">Polityka prywatności</a>
+                <a target="_blank" href="/rodo" class="pp_copyright">RODO</a>
             </div>
             <p>&copy; 2026 Oliwia Ślęzak Notariusz Bydgoszcz</p>
         </div>
